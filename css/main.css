@@ -1,0 +1,198 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+
+}
+.navbar-light
+{
+    background-color: rgba(0, 0, 0, 0.3)!important;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+
+color:white!important;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.navbar .navbar-nav .active
+{
+color:#e7efee !important;
+background-color: #207561 !important;
+border-radius: 5px;
+}
+.cover
+{
+    background-image: url(../images/hero_2\ \(2\).jpg);
+width: 100%;
+height: 600px;
+background-size: cover;
+}
+.title
+{
+margin: auto;
+width: 70%;
+text-align: center;
+position: relative;
+top:300px;
+color: white;
+font-weight: 500;
+}
+.overly
+{
+background-color: rgba(0, 0, 0, 0.3);
+width: 100%;
+height: 100%;
+}
+nav
+{
+    padding: 0 !important;
+margin: 0 !important;
+}
+section .sec-2 h2
+{
+    width: 70%;
+font-size: 17px;
+font-weight: 600;
+}
+section .sec2 button
+{
+    border: none !important;
+}
+section .sec-2 p
+{
+width: 80%;
+}
+.pic-1 .num
+{
+font-size: 40px;
+font-weight: 600;
+z-index: 2;
+position: relative;
+}
+.pic-1 .num span
+{
+    position: relative;
+    z-index: 122;
+font-weight: 700;
+}
+
+.pic-1 .num::before
+{
+content: "";
+position: absolute;
+top:-30%;
+left:20px;
+width: 70px;
+height: 70px;
+background-color: #e7efee;
+border-radius: 50%;
+z-index: 1;
+}
+
+.sec2
+{
+    background-image: url(../images/dot_grid\ \(1\).jpg);
+}
+
+section  .pic-1
+{
+
+    border: 4px solid #207561;
+    box-shadow:-30px -30px #e8f1ef;
+}
+.sec-3 p
+{
+width: 60%;
+}
+.im-2 img
+{
+    width: 100%;
+}
+.disc-2
+{
+    position: relative;
+    top:-30px;
+left:20px;
+width: 70%;
+    background-color: white;
+box-shadow:20px 20px #e8f1ef;
+}
+.sec-4
+{
+    background-image: url(../images/dot_grid\ \(1\).jpg);
+}
+.cover2
+{
+    background-image: url(../images/hero_3\ \(1\).jpg);
+width: 100%;
+height: 600px;
+background-size: cover;
+}
+.sec-5
+{
+    background-image: url(../images/dot_grid\ \(1\).jpg);
+}
+.card-1
+{
+    width: 50%;
+    background-color: white;
+margin:auto;
+position: relative;
+top:-120px;
+}
+.sec-6
+{
+    background-image: url(../images/dot_grid\ \(1\).jpg);
+}
+.disc-6
+{
+    width:60%;
+    margin:auto;
+    background-color:white;
+    padding:20px;
+text-align:center;
+}
+.sec-8
+{
+    background-image: url(../images/dot_grid\ \(1\).jpg);
+}
+.sec-8 p
+{
+width:60%;
+}
+.card-3 .im-0 img
+{
+    width:100%;
+}
+.card-3
+{
+    background-color:white;
+}
+.last
+{
+    background-image: url(../images/dot_grid\ \(1\).jpg);
+}
+.last p
+{
+color:#c0c3c7;
+line-height: 30px;
+}
+.last ul
+{
+    list-style-type: none;
+}
+.last ul li
+{
+    line-height: 30px;
+    color:#c0c3c7;
+
+}
+.last ul li h6
+{
+    color:#333;
+}
+.icon li
+{
+    display: inline-block;
+padding-left: 10px;
+padding-top: 20px;
+}
